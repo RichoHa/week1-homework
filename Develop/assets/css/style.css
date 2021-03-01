@@ -4,9 +4,14 @@
     margin: 0;
 }
 
+/*
+
+Moved body below ".header div ul li" to follow struture of a HTML
+
 body {
     background-color: #d9dcd6;
 }
+*/
 
 .header {
     padding: 20px;
@@ -39,6 +44,10 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+body {
+    background-color: #d9dcd6;
 }
 
 a {
@@ -86,7 +95,10 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*
+*** Note = Grouped together as properties are the same ***
+
+.benefit-lead, {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -100,6 +112,15 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;    
+}
+
+/*
+*** Note = Grouped under ".benefits h3" ***
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -115,6 +136,15 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;  
+}
+
+/*
+*** Note = Grouped under ".benefits img" ***
 
 .benefit-lead img {
     display: block;
@@ -133,6 +163,15 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;  
+}
+
+/*
+*** Note = Grouped together as properties are the same ***
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -160,6 +199,19 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*
+*** Note = Grouped under ".content img" ***
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -172,6 +224,13 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
+.content img {
+    max-height: 200px;
+}
+
+/*
+*** Note = Grouped under ".content h2" ***
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -184,6 +243,12 @@ p {
 }
 
 .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }

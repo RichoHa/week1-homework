@@ -76,17 +76,17 @@ This homework is graded based on the following criteria:
 
 * Satisfies all of the preceding acceptance criteria plus the following code improvements:
 
-  * Application's links all function correctly.
+  * Application's links all function correctly. (Completed)
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure. (Completed)
 
-  * Application's CSS file is properly commented.
+  * Application's CSS file is properly commented. (Completed)
 
 ### Deployment: 32%
 
 * Application deployed at live URL.
 
-* Application loads with no errors.
+* Application loads with no errors. (Completed)
 
 * Application GitHub URL submitted.
 
@@ -94,7 +94,7 @@ This homework is graded based on the following criteria:
 
 ### Application Quality: 15%
 
-* Application resembles mock-up provided in the homework instructions (at least 90%).
+* Application resembles mock-up provided in the homework instructions (at least 90%). (Completed)
 
 ### Repository Quality: 13%
 
