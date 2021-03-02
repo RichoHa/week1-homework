@@ -94,7 +94,7 @@ This homework is graded based on the following criteria:
 
 ### Application Quality: 15%
 
-* Application resembles mock-up provided in the homework instructions (at least 90%). (Completed)
+* Application resembles mock-up provided in the homework instructions (at least 90%).
 
 ### Repository Quality: 13%
 
