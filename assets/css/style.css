@@ -1,9 +1,10 @@
+/*Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Element Selectors*/
 body {
     background-color: #d9dcd6;
 }
@@ -16,7 +17,9 @@ a {
 p {
     font-size: 16px;
 }
+/*Class Selectors*/
 
+/*body & header Section Starts Here*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +53,7 @@ p {
     margin-left: 25px;
 }
 
+/*body & hero Section Starts Here*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +63,7 @@ p {
     background-position: center;
 }
 
+/*body & content Section Starts Here*/
 .content {
     width: 75%;
     display: inline-block;
@@ -92,7 +97,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*Body & benefits Section Starts Here*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +125,7 @@ p {
     max-width: 150px;  
 }
 
+/*body and footer Section starts here*/
 .footer {
     padding: 30px;
     clear: both;
